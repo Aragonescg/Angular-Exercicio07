@@ -9,9 +9,9 @@ Também recupere os dados dos repositórios e os liste também no Dialog, logo a
 Segue imagens do aplicativo criado por mim, ainda estarei fazendo formatações melhores. E a experiência ao longo do projeto foi muito top.
 
 
-<img width="550" height="650" src="src\assets\Readmegit\buscadeusuario.png">
+<img width="650" height="650" src="src\assets\Readmegit\buscadeusuario.png">
 
-<img width="450" height="745" src="src\assets\Readmegit\dadosusuario.png"><img width="450" height="745" src="src\assets\Readmegit\dadosrepo.png">
+<img width="450" height="640" src="src\assets\Readmegit\dadosusuario.png"><img width="450" height="640" src="src\assets\Readmegit\dadosrepo.png">
 
 
 
