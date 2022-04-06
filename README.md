@@ -1,4 +1,19 @@
-# Projeto2203
+# Exercício 07: Projeto Github
+
+O exercício proposto pedia que criássemos uma aplicação pra consumir dados da api oficial do GitHub, assim exercitando o que aprendemos em requesições HTTP no angular.
+
+" Faça um campo para pesquisar o usuário pelo seu username e um botão para fazer a pesquisa. Ao clicar, ele mostrará um Dialog do Material com os dados do usuário, como foto de perfil, descrição, quantidade de seguidores, quantas pessoas o usuário está seguindo e qualquer outro dado que você desejar.
+
+Também recupere os dados dos repositórios e os liste também no Dialog, logo abaixo dos dados do usuário. De cada repositório, mostre o nome dele, a linguagem utilizada, quantidade de estrelas e, ao clicar nas infos de um repo, você será redirecionado à página do repositório que você clicou. "
+
+Segue imagens do aplicativo criado por mim, ainda estarei fazendo formatações melhores. E a experiência ao longo do projeto foi muito top.
+
+
+<img src="src\assets\Readmegit\buscadeusuario.png">
+
+<img src="src\assets\Readmegit\dadosusuario.png"><img src="src\assets\Readmegit\dadosrepo.png">
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 

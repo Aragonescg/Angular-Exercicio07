@@ -1,0 +1,32 @@
+<div class="main-container">
+
+    <div class="img-avatar">
+        <img id="img" src="{{ user?.avatar_url }}" alt="imagen de{{ username }}">
+    </div>
+
+    <div mat-dialog-content class="container">
+        <mat-progress-spinner color="primary" mode="indeterminate" *ngIf=" user == null; else content ">
+        </mat-progress-spinner>
+        <ng-template #content class="teste"></ng-template>
+    </div>
+
+    <div class="container-bio">
+        <h3>Biografia</h3>
+
+        <p>{{ user?.bio }}</p>
+        <p><strong>Nome:</strong> {{ user?.name }}</p>
+        <p><strong>Seguidores:</strong> {{ user?.followers }}</p>
+        <p><strong>Seguindo:</strong> {{ user?.following }}</p>
+
+    </div>
+
+    <div class="container-repos">
+        <mat-card class="card" *ngFor="let repos of repos">
+            <h4>Repositorio: {{repos?.name}}</h4>
+            <p><strong>Linguagem Usada:</strong> {{repos?.language}}</p>
+            <p><strong>Curtidas:</strong> {{repos?.stargazers_count}}</p>
+            <a [href]="repos?.html_url" target="_blank">Ir para página do repositório</a>
+        </mat-card>
+    </div>
+
+</div>
